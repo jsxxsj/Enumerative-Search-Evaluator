@@ -5,9 +5,9 @@ This readme file contains a more specified description for the setups and testca
 ## Introduction
 In this project we explore the possibility of translating abstract semantic rules automatically between two widely used ends: the microcode inside an evaluator and the programs. In particular, we extract the patterns of some semantic rules from a given bunch of example programs/ testcases, and embed them into the microcode part of a Explicit Control Evaluator(ECE). The whole project is based on the programs given in the homework of module CS4215, and some demonstrations may base on the context of M3 in this module. 
 
-==pic1==
+![pic1](https://github.com/jsxxsj/Enumerative-Search-Evaluator/blob/main/pics/pic1_structure.png)
 
-==picture1== shows the overall scope of this project. What we're given is an incomplete ECE with only the instruction part, complete knowledge of the instruction set and some testcases with special limitations. The output of the searcher is the abstract semantic rules extracted from the testcases in the form of lambda expressions. After search, we embed the semantic rule into the given ECE as a property of its microcodes objects, so that the ECE can handle the execution of newly embedded rules.
+The figure above shows the overall scope of this project. What we're given is an incomplete ECE with only the instruction part, complete knowledge of the instruction set and some testcases with special limitations. The output of the searcher is the abstract semantic rules extracted from the testcases in the form of lambda expressions. After search, we embed the semantic rule into the given ECE as a property of its microcodes objects, so that the ECE can handle the execution of newly embedded rules.
 
 ## architecture description
 The file tree of this project is as below
