@@ -73,7 +73,7 @@ while(!a.one_step()){        console.log("##################################
 ```
 
 The expected output:
- ==pic2==
+ ![pic2](https://github.com/jsxxsj/Enumerative-Search-Evaluator/blob/main/pics/pic2.png)
 #### 2.perform search operation
 To check the correctness and perform enumerative search, we need to use the `test()` method provided by `Case_manager`, which will send the instruction sequence into the evaluator and check if the outcome matches the testcase.
 
@@ -91,7 +91,7 @@ while(!a.one_step()){
     }
 ```
 Expected output:
-==pic3==
+ ![pic3](https://github.com/jsxxsj/Enumerative-Search-Evaluator/blob/main/pics/pic3.png)
 
 #### 3.embed rules
 First we need to get a rule in JSON format before embedding: 1. we can get using a succeed search structure and call the `build_rule()` function.
@@ -123,4 +123,4 @@ Eval_build.new_micro_rule(rule_app);
 Then we use `embed_micro_rule()` to modify the `microcodes` object of this evaluator, so that it can handle corresponding rules using the result environment.
 
 The expected output:
-==pic4==
+ ![pic4](https://github.com/jsxxsj/Enumerative-Search-Evaluator/blob/main/pics/pic4.png)
