@@ -1,0 +1,44 @@
+{   
+    "tag": "let",
+    "comps":[
+        "sym",
+        "expr"
+    ],
+    "forest_num":2,
+    "testcase_num":3,
+    "testcase":[
+        {   
+            "i_E":[{},[]],
+            "Expr":[
+                {"id":"expr","tag":"CE","S":true}
+            ],
+            "Value":[
+                {"id":"sym","tag":"value","val":"x"}
+            ],
+            "o_S":[null],
+            "o_E":[{"x":true},[]]
+        },
+        {   
+            "i_E":[{},[]],
+            "Expr":[
+                {"id":"expr","tag":"CE","S":200}
+            ],
+            "Value":[
+                {"id":"sym","tag":"value","val":"y"}
+            ],
+            "o_S":[null],
+            "o_E":[{"y":200},[]]
+        },
+        {   
+            "i_E":[{"x":200},[]],
+            "Expr":[
+                {"id":"expr","tag":"CE","S":true}
+            ],
+            "Value":[
+                {"id":"sym","tag":"value","val":"y"}
+            ],
+            "o_S":[null],
+            "o_E":[{"x":200,"y":true},[]]
+        }
+    ]
+}

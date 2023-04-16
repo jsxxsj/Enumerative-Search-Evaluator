@@ -1,0 +1,37 @@
+{   
+    "tag": "cond_expr",
+    "comps":[
+        "pred",
+        "cons",
+        "alt"
+    ],
+    "forest_num":3,
+    "testcase_num":3,
+    "testcase":[
+        {   
+            "Expr":[
+                {"id":"pred","tag":"CE","S":true},
+                {"id":"cons","tag":"CE","S":3},
+                {"id":"alt","tag":"CE","S":5}
+            ],
+            "o_S":[3]
+        },
+        {   
+            "Expr":[
+                {"id":"pred","tag":"CE","S":false},
+                {"id":"cons","tag":"CE","S":3},
+                {"id":"alt","tag":"CE","S":5}
+            ],
+            "o_S":[5]
+        },
+        {   
+            "Expr":[
+                {"id":"pred","tag":"CE","S":false},
+                {"id":"cons","tag":"CE","S":3},
+                {"id":"alt","tag":"CE","S":5}
+            ],
+            "o_S":[5]
+        }
+        
+    ]
+}

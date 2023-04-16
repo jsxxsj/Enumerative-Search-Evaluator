@@ -1,0 +1,1 @@
+{"tag":"cond_expr","comps":["0","1"],"forest_num":3,"testcase_num":2,"testcase":[{"o_S":[3],"Expr":[{"tag":"lit","val":true,"id":"pred"},{"tag":"lit","val":3,"id":"cons"},{"tag":"lit","val":5,"id":"alt"}]},{"i_E":[{"x":false},[]],"o_S":[6],"o_E":[{"x":false},[]],"Expr":[{"tag":"nam","sym":"x","id":"pred"},{"tag":"lit","val":4,"id":"cons"},{"tag":"lit","val":6,"id":"alt"}]}]}

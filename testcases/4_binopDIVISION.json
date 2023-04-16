@@ -1,0 +1,32 @@
+{   
+    "tag": "binop/",
+    "comps":[
+        "frst",
+        "scnd"
+    ],
+    "forest_num":3,
+    "testcase_num":3,
+    "testcase":[
+        {   
+            "Expr":[
+                {"id":"frst","tag":"CE","S":5},
+                {"id":"scnd","tag":"CE","S":3}
+            ],
+            "o_S":[2]
+        },
+        {
+            "Expr":[
+                {"id":"frst","tag":"CE","S":4},
+                {"id":"scnd","tag":"CE","S":4}
+            ],
+            "o_S":[0]
+        },
+        {
+            "Expr":[
+                {"id":"frst","tag":"CE","S":4},
+                {"id":"scnd","tag":"CE","S":20}
+            ],
+            "o_S":[-16]
+        }
+    ]
+}

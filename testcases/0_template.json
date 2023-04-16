@@ -1,0 +1,46 @@
+{   "comment":"we take the 'add' as an example",
+    
+    "comment":"the tag of one rule, will be used as the tag in the microcode",
+    "tag": "binop+",
+
+    "comment":"an assistant attribute for construction",
+    "comment":"since we use an int ptr in enum-searching,",
+    "comment":"we only need to make sure the sequence is the same",
+    "comps":[
+        "frst",
+        "scnd"
+    ],
+
+    "comment":"the number of nodes in searching",
+    "forest_num":3,
+
+    "comment":"the number of test cases",
+    "testcase_num":3,
+
+    "comment":"using a list for test cases",
+    "testcase":[
+        {   "comment":"one test case have 3 kinds of attris: input, output and things to be searched",
+            "comment":"the in and output(i.e the S,A,E) will have default value",
+            "comment":"these will directly replace the Expr and Value",
+            "Expr":[
+                {"id":"frst","tag":"CE","S":3},
+                {"id":"scnd","tag":"CE","S":5}
+            ],
+            "o_S":[8]
+        },
+        {
+            "Expr":[
+                {"id":"frst","tag":"CE","S":4},
+                {"id":"scnd","tag":"CE","S":4}
+            ],
+            "o_S":[8]
+        },
+        {
+            "Expr":[
+                {"id":"frst","tag":"CE","S":20},
+                {"id":"scnd","tag":"CE","S":4}
+            ],
+            "o_S":[24]
+        }
+    ]
+}
